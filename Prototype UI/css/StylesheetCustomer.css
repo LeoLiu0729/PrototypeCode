@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D3D3D3;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #D3D3D3;
+    padding: 10px;
+}
+
+.Title {
+    position: fixed;
+    top: 30px;
+    left: 170px;
+
+}
