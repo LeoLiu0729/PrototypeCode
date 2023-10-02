@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="StylesheetManager.css">
+    <title>Manger</title>
+</head>
+<body>
+<div class="header-content">
+    <!-- Logo on top left -->
+    <img src="https://i.imgur.com/cvXxGZe.png" alt="L.A.S Banking System Logo" class="logo" >
+</div>
+<div class="container">
+    <div class="sidebar">
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#">Access Database Records</a></li>
+                <li><a href="#">Access Employee Information</a></li>
+                <li><a href="Prototype.html" class="logout-button">Logout</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="main-content">
+        <div id="database">
+        </div>
+        <div class="search-container">
+            <input type="text" id="searchBox" placeholder="Enter Information">
+            <button id="searchBtn">Enter</button>
+        </div>
+        <h4>Pending Loan Applications</h4>
+        <table class="table ">
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Loan Details</th>
+                <th>Action</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>$10,000 for Home Renovation</td>
+                <td>
+                    <button class="btn btn-success">Approve</button>
+                    <button class="btn btn-danger">Deny</button>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Footer -->
+<hr class="bg-white my-2">
+<footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+        <div class="mb-3">
+            &copy; 2023 L.A.S Banking System
+        </div>
+        <div class="mb-3">
+            Follow us on [Social Media Links Here]
+        </div>
+        <div class="d-inline-block mr-3">
+            <i class="fas fa-phone-alt"></i> Phone: 1-888-888-8888
+        </div>
+        <div class="d-inline-block">
+            <i class="fas fa-map-marker-alt"></i> Address: 1400 Spring Garden St, Greensboro, NC 27412
+        </div>
+    </div>
+    </footer>
+
+</body>
+</html>
