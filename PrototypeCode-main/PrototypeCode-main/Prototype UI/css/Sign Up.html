@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="StylesheetSignup.css">
+    <title>Sign Up New Account</title>
+</head>
+<body>
+<div class="header-content">
+    <img src="https://i.imgur.com/2pLO8ZG.png" alt="L.A.S Banking System Logo" class="logo" >
+</div>
+<a href="Prototype.html" id="goBackLink" class="btn-go-back">Go Back</a>
+<div class="signup-container">
+    <h2>Create a L.A.S Banking Account</h2>
+    <p>Get started with your new account registration below:</p>
+
+    <form action="/submit-signup" method="POST">
+        <div class="input-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required placeholder="Enter your username">
+        </div>
+
+        <div class="input-group">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required placeholder="you@example.com">
+        </div>
+
+        <div class="input-group">
+            <label for="SSN">SSN:</label>
+            <input type="SSN" id="SSN" name="SSN" required placeholder="you 9-digit-SSN">
+        </div>
+
+        <div class="input-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required placeholder="At least 8 characters">
+        </div>
+
+        <div class="input-group">
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required placeholder="Confirm your password">
+        </div>
+
+        <button type="submit" class="login-button">Create Account</button>
+    </form>
+</div>
+<hr class="bg-white my-2">
+<footer class="bg-dark text-white text-center py-4">
+    <div class="container">
+        <div class="mb-3">
+            &copy; 2023 L.A.S Banking System
+        </div>
+        <div class="mb-3">
+            Follow us on [Social Media Links Here]
+        </div>
+        <div class="d-inline-block mr-3">
+            <i class="fas fa-phone-alt"></i> Phone: 1-888-888-8888
+        </div>
+        <div class="d-inline-block">
+            <i class="fas fa-map-marker-alt"></i> Address: 1400 Spring Garden St, Greensboro, NC 27412
+        </div>
+    </div>
+</footer>
+</body>
+</html>
